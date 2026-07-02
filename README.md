@@ -76,17 +76,16 @@ For a project like this one, these features translate directly into practical be
 
 ## Illustrations
 ```
-+-----------------------------------------------+
-|      Project Management Form using JPDB       |
-+-----------------------------------------------+
-| Project ID :        [___________]             |
-| Project Name :       [___________]             |
-| Assigned To :        [___________]             |
-| Assignment Date :     [___________]             |
-| Deadline :           [___________]             |
-|                                                 |
-|      [ Save ]   [ Update ]   [ Reset ]         |
-+-----------------------------------------------+
+
+       Project Management Form using JPDB       
+
+ Project ID :         [             ]             
+ Project Name :       [            ]             
+ Assigned To :        [            ]             
+ Assignment Date :    [            ]             
+ Deadline :           [            ]             
+                                                 
+      [ Save ]   [ Update ]   [ Reset ]         
 ```
 
 ## Examples of Use
