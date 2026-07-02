@@ -37,15 +37,15 @@ The form stores data in the `PROJECT-TABLE` relation of the `COLLEGE-DB` databas
 
 **Key Features:**
 - Nimble, simple to use, in-memory, real-time database
-- **Schema-free** — easy to maintain, no rigid table structures to manage
-- **Serverless support** — enables fast development and cuts time to market
-- **Multi-Mode database** — a single solution for a variety of data types
+- **Schema-free** - easy to maintain, no rigid table structures to manage
+- **Serverless support** - enables fast development and cuts time to market
+- **Multi-Mode database** - a single solution for a variety of data types
 - Built around **PowerIndex**, one of the world's fastest indexing engines
-- **Webservices API** — directly callable from the frontend, lowering development cost (this is exactly how this project talks to JPDB via `jpdb-commons.js`)
+- **Webservices API** - directly callable from the frontend, lowering development cost (this is exactly how this project talks to JPDB via `jpdb-commons.js`)
 - A single instance can support **millions of indexes**
 - Inbuilt support for querying multiple databases
 - Multiple security layers
-- **Server-side native NoSQL** — built for best possible performance
+- **Server-side native NoSQL** - built for best possible performance
 
 **Why Prefer JsonPowerDB:**
 - Minimum development cost
@@ -58,7 +58,7 @@ The form stores data in the `PROJECT-TABLE` relation of the `COLLEGE-DB` databas
   - Pluggable and user-defined API
 - Minimizes total cost of ownership
 
-For a project like this one, these features translate directly into practical benefits: no backend server was written at all — the browser calls the JPDB Webservices API straight from `js/index.js` using `jpdb-commons.js` helper functions (`createPUTRequest`, `createGET_BY_KEYRequest`, `createUPDATERecordRequest`, `executeCommandAtGivenBaseUrl`) — which kept development cost and time-to-market to a minimum for this micro project.
+For a project like this one, these features translate directly into practical benefits: no backend server was written at all — the browser calls the JPDB Webservices API straight from `index.js` using `jpdb-commons.js` helper functions (`createPUTRequest`, `createGET_BY_KEYRequest`, `createUPDATERecordRequest`, `executeCommandAtGivenBaseUrl`) — which kept development cost and time-to-market to a minimum for this micro project.
 
 ## Scope of Functionalities
 - Create a new project record (`Save`)
@@ -94,16 +94,16 @@ For a project like this one, these features translate directly into practical be
 1. Type a new Project ID, e.g. `P101`, and move out of the field.
 2. Since `P101` doesn't exist yet, the rest of the fields unlock.
 3. Fill in Project Name, Assigned To, Assignment Date, and Deadline.
-4. Click **Save** — the record is inserted into `COLLEGE-DB | PROJECT-TABLE`.
+4. Click **Save** - the record is inserted into `COLLEGE-DB | PROJECT-TABLE`.
 
 **Updating an existing project:**
 1. Type an existing Project ID, e.g. `P101`.
 2. The form auto-fills with the stored data; Project ID is locked.
 3. Change any of the other fields.
-4. Click **Update** — the record is updated in place.
+4. Click **Update** - the record is updated in place.
 
 ## Project Status
- **Active / Complete for course submission** — core Save/Update/Reset flow is implemented and working against the JPDB API.
+ **Active / Complete for course submission** - core Save/Update/Reset flow is implemented and working against the JPDB API.
 
 Possible future improvements:
 - Add a Delete button
@@ -113,7 +113,7 @@ Possible future improvements:
 ## Release History
 | Version | Date | Notes |
 |---|---|---|
-| v1.0 | 2026-07-02 | Initial release — Project Management Form with Save, Update, Reset and Project-ID based lookup against JPDB |
+| v1.0 | 2026-07-02 | Initial release - Project Management Form with Save, Update, Reset and Project-ID based lookup against JPDB |
 
 ## Sources
 - [JsonPowerDB API Command Reference](https://www.login2explore.com/jpdb/api-doc.html)
