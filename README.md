@@ -103,7 +103,7 @@ For a project like this one, these features translate directly into practical be
 4. Click **Update** — the record is updated in place.
 
 ## Project Status
-🟢 **Active / Complete for course submission** — core Save/Update/Reset flow is implemented and working against the JPDB API.
+ **Active / Complete for course submission** — core Save/Update/Reset flow is implemented and working against the JPDB API.
 
 Possible future improvements:
 - Add a Delete button
@@ -125,7 +125,7 @@ Possible future improvements:
 - **Database:** `COLLEGE-DB`
 - **Relation:** `PROJECT-TABLE`
 - **Primary Key:** `Project-ID`
-- Before running locally, set your own `connToken` in `js/index.js` (get it from the JPDB Dashboard → Tools → Tokens panel).
+- Before running locally, set your own `connToken` in `index.js` (get it from the JPDB Dashboard → Tools → Tokens panel).
 
 ## Author
 Naziya
