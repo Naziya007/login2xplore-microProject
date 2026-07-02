@@ -28,8 +28,8 @@ The form stores data in the `PROJECT-TABLE` relation of the `COLLEGE-DB` databas
 **Form behavior:**
 1. On page load, only the **Project ID** field is enabled; everything else (fields + Save/Update/Reset buttons) is disabled, and the cursor sits in Project ID.
 2. When a Project ID is entered:
-   - **If it doesn't exist** in the database → the rest of the fields and the `Save` + `Reset` buttons are enabled.
-   - **If it already exists** → the record's data is loaded into the form, Project ID is locked, and `Update` + `Reset` are enabled.
+   - **If it doesn't exist** in the database = the rest of the fields and the `Save` + `Reset` buttons are enabled.
+   - **If it already exists** = the record's data is loaded into the form, Project ID is locked, and `Update` + `Reset` are enabled.
 3. All fields are validated as non-empty before `Save` or `Update` is allowed to run.
 4. After a successful `Save`, `Update`, or `Reset`, the form returns to its blank, step-1 state.
 
