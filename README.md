@@ -12,7 +12,7 @@
 - [Other Information](#other-information)
 
 ## Description
-This is a micro project built as part of the **Introduction to JsonPowerDB - V2.0** course. It is a simple, single-page **Project Management Form** that lets a user create and update project records directly against a JsonPowerDB (JPDB) database — with no backend server required, since the browser talks straight to the JPDB REST API.
+This is a micro project built as part of the **Introduction to JsonPowerDB - V2.0** course. It is a simple, single-page **Project Management Form** that lets a user create and update project records directly against a JsonPowerDB (JPDB) database - with no backend server required, since the browser talks straight to the JPDB REST API.
 
 The form stores data in the `PROJECT-TABLE` relation of the `COLLEGE-DB` database, with `Project-ID` acting as the primary key.
 
@@ -58,7 +58,7 @@ The form stores data in the `PROJECT-TABLE` relation of the `COLLEGE-DB` databas
   - Pluggable and user-defined API
 - Minimizes total cost of ownership
 
-For a project like this one, these features translate directly into practical benefits: no backend server was written at all — the browser calls the JPDB Webservices API straight from `index.js` using `jpdb-commons.js` helper functions (`createPUTRequest`, `createGET_BY_KEYRequest`, `createUPDATERecordRequest`, `executeCommandAtGivenBaseUrl`) — which kept development cost and time-to-market to a minimum for this micro project.
+For a project like this one, these features translate directly into practical benefits: no backend server was written at all — the browser calls the JPDB Webservices API straight from `index.js` using `jpdb-commons.js` helper functions (`createPUTRequest`, `createGET_BY_KEYRequest`, `createUPDATERecordRequest`, `executeCommandAtGivenBaseUrl`) - which kept development cost and time-to-market to a minimum for this micro project.
 
 ## Scope of Functionalities
 - Create a new project record (`Save`)
